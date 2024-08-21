@@ -1,3 +1,4 @@
-let a =10;
-let b=20;
-console.log(`sum is a or b is==${a+b}`);
+let home ="js housr ";
+const mypass=2355326;
+var idName="Raushan";
+console.table({home,mypass,idName});
