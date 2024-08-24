@@ -23,5 +23,13 @@ const gameName = new String("Raushanhp")
 // const anotherstring = gameName.slice(1,4).length;
 // console.log(anotherstring);
 
+const name = "   Raushan   ";
+console.log(name);
+console.log(name.trim());
+//methods
+// split()
+//replace()
+//includes()
+
 
 
