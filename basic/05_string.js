@@ -74,8 +74,15 @@
 // let a =hello();
 // console.log(a);
 
-let Meggie = (mg ,wt) => {
-    // console.log("hello")
+// let Meggie = (mg ,wt) => {
+//     // console.log("hello")
+//     console.log(`your meggi will be redy in   ${mg*2} min and ingredians use are ${wt} cups of water `);
+//    }
+//  Meggie(999,15000);
+
+
+ function maggie(mg ,wt){
     console.log(`your meggi will be redy in   ${mg*2} min and ingredians use are ${wt} cups of water `);
-   }
- Meggie(2,3);
+
+ }
+ maggie(3,6);
