@@ -31,5 +31,37 @@ console.log(name.trim());
 //replace()
 //includes()
 
+let obj={
+    name:"Raushan",
+    id : 87,
+    location:"jaipur"
+}
+
+console.log(obj);
 
 
+// let sum=function(){
+//     let a=10;
+//     let b=20;
+//     console.log(a+b);
+
+// }
+// sum();
+
+
+// function sum (){
+//     let a=70;
+//     let b=30;
+//     console.log(`sum is a OR B ${a+b}`);
+
+// }
+
+// sum();
+
+function add(x,y){
+    return x+y;
+
+}
+
+let ret= add(23,67);
+console.log(ret);
