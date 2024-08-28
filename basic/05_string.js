@@ -31,13 +31,13 @@ console.log(name.trim());
 //replace()
 //includes()
 
-let obj={
-    name:"Raushan",
-    id : 87,
-    location:"jaipur"
-}
+// let obj={
+//     name:"Raushan",
+//     id : 87,
+//     location:"jaipur"
+// }
 
-console.log(obj);
+// console.log(obj);
 
 
 // let sum=function(){
@@ -58,10 +58,9 @@ console.log(obj);
 
 // sum();
 
-function add(x,y){
-    return x+y;
-
+function add(){
+console.log("hello")
+return "hello";
 }
 
-let ret= add(23,67);
-console.log(ret);
+add();
