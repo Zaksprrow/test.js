@@ -78,4 +78,4 @@ let Meggie = (mg ,wt) => {
     // console.log("hello")
     console.log(`your meggi will be redy in   ${mg*2} min and ingredians use are ${wt} cups of water `);
    }
- Meggie(4,6);
+ Meggie(2,3);
