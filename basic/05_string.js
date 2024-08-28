@@ -7,7 +7,7 @@
 
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-const gameName = new String("Raushanhp")
+// const gameName = new String("Raushanhp")
 // console.log(gameName.__proto__);
 
 //console.log(gameName[0]);
@@ -23,9 +23,9 @@ const gameName = new String("Raushanhp")
 // const anotherstring = gameName.slice(1,4).length;
 // console.log(anotherstring);
 
-const name = "   Raushan   ";
-console.log(name);
-console.log(name.trim());
+// const name = "   Raushan   ";
+// console.log(name);
+// console.log(name.trim());
 //methods
 // split()
 //replace()
@@ -58,9 +58,24 @@ console.log(name.trim());
 
 // sum();
 
-function add(){
-console.log("hello")
-return "hello";
-}
+// function (){
+// console.log("hello");
+// return "hello";
+// }
 
-add();
+
+// let a =add();
+// console.log(a);
+
+// let hello = () => {
+//    console.log("hello")
+//    return "hello";
+//   }
+// let a =hello();
+// console.log(a);
+
+let Meggie = (mg ,wt) => {
+    // console.log("hello")
+    console.log(`your meggi will be redy in   ${mg*2} min and ingredians use are ${wt} cups of water `);
+   }
+ Meggie(4,6);
