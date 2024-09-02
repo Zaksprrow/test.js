@@ -75,15 +75,16 @@
 //  person.fullName.apply(person1); 
 
 
-const persion = {
-    intro: function(){
-        return this.first+""+this.last;
+// const persion = {
+//     intro: function(){
+//         return this.first+""+this.last;
         
-    }
-}
-const persion1={
-    first: "Raushan",
-    last: "Kumar"
-}
+//     }
+// }
+// const persion1={
+//     first: "Raushan",
+//     last: "Kumar"
+// }
 
-console.log(persion.intro.apply(persion1));
+// console.log(persion.intro.apply(persion1));
+
