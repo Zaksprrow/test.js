@@ -42,7 +42,42 @@
     <script src="chaiaurcode.js"></script>
   </body>
 </html>
-,{let buttons =document.querySelectorAll(".button");
+,{
+    html {
+  margin: 0;
+}
+
+span {
+  display: block;
+}
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+}
+
+#grey {
+  background: grey;
+}
+
+#white {
+  background: white;
+}
+#blue {
+  background: blue;
+}
+#yellow {
+  background: yellow;
+}
+
+},{let buttons =document.querySelectorAll(".button");
 const boody= document.querySelector("body");
 const h1= document.querySelector("h1");
 
